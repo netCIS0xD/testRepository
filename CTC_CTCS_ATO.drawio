@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="mSzGbAxTPzWcVvcICINF">
-    <mxGraphModel dx="1493" dy="2041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="130" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-100" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;arcSize=6;" parent="1" vertex="1">
           <mxGeometry x="245" width="525" height="115" as="geometry" />
         </mxCell>
@@ -11,7 +14,7 @@
           <mxGeometry x="420" y="210" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-69" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;arcSize=6;" parent="1" vertex="1">
-          <mxGeometry x="300" y="330" width="460" height="320" as="geometry" />
+          <mxGeometry x="310" y="330" width="450" height="320" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="312" y="400" width="90" height="240" as="geometry" />
@@ -22,8 +25,8 @@
         <mxCell id="J2MpM2koHGSMBXHB8nq6-2" value=" RBC&#xa;无线闭塞中心&#xa;(CTCS3)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="449" y="150" width="85" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="J2MpM2koHGSMBXHB8nq6-3" value="轨旁设备 &#xa;应答器、轨道电路" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="171" y="443" width="108" height="54" as="geometry" />
+        <mxCell id="J2MpM2koHGSMBXHB8nq6-3" value="LEU/有源应答器" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="131" y="392" width="108" height="38" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-4" value="机车综合通信设备" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="420" y="340" width="320" height="40" as="geometry" />
@@ -114,10 +117,10 @@
         <mxCell id="J2MpM2koHGSMBXHB8nq6-27" value="ATP&#xa;自动列车保护单元" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="480" y="562" width="206" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="J2MpM2koHGSMBXHB8nq6-29" value="轨旁信息&#xa;(应答器&#xa;轨道电路)接收单元" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="J2MpM2koHGSMBXHB8nq6-29" value="轨旁信息&#xa;接收单元&#xa;BTM&#xa;TCR" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="327" y="444" width="60" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="J2MpM2koHGSMBXHB8nq6-30" value="定位与测速单元" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="J2MpM2koHGSMBXHB8nq6-30" value="测速测距单元" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="327" y="520" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-35" value="信息融合子系统" style="text;whiteSpace=wrap;" parent="1" vertex="1">
@@ -323,7 +326,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-99" value="CTCS车载系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="304" y="336" width="110" height="30" as="geometry" />
+          <mxGeometry x="310" y="336" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-101" value="CTC调度集中系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="250.5" width="129.5" height="30" as="geometry" />
@@ -353,10 +356,44 @@
           <mxGeometry x="413" y="100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-111" value="CTCS地面系统" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="160" y="549" width="70" height="30" as="geometry" />
+          <mxGeometry x="140" y="669" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J2MpM2koHGSMBXHB8nq6-112" value="图标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="520" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-3" value="无源应答器" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="131" y="455" width="108" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-4" value="轨道电路" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="131" y="517" width="108" height="41" as="geometry" />
+        </mxCell>
+        <UserObject label="轨旁设备" placeholders="1" name="Variable" id="R69CiBpcvwxKvHvc8JuY-6">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="120" y="360" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-7" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R69CiBpcvwxKvHvc8JuY-3" target="J2MpM2koHGSMBXHB8nq6-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <mxPoint x="408" y="543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-9" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=1.018;exitY=0.493;exitDx=0;exitDy=0;entryX=-0.031;entryY=0.623;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="R69CiBpcvwxKvHvc8JuY-4" target="J2MpM2koHGSMBXHB8nq6-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="290" y="470" as="sourcePoint" />
+            <mxPoint x="378" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-10" value="定位校准&lt;div&gt;线路数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="249" y="462" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-11" value="临时限速&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;进路数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=35;" vertex="1" parent="1">
+          <mxGeometry x="252" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R69CiBpcvwxKvHvc8JuY-12" value="行车许可" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-35;" vertex="1" parent="1">
+          <mxGeometry x="253.62" y="512.5" width="56" height="19.76" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
