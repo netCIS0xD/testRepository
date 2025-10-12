@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
   <diagram name="Page-1" id="eW3xqZJNIczU26sJt-Gz">
-    <mxGraphModel dx="1240" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1280" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1280" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,9 +22,6 @@
             <mxPoint x="359.9999999999998" y="99.99763975155285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="note1" value="机器人状态（速度、位置、信道）" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="90" y="-10" width="140" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="FVhyo1jwLFq0jIHUH1NA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;fontColor=light-dark(#000000,#2433FF);" parent="1" vertex="1">
           <mxGeometry x="70" y="392.5" width="200" height="100" as="geometry" />
         </mxCell>
@@ -41,16 +38,16 @@
         <mxCell id="FVhyo1jwLFq0jIHUH1NA-5" value="运动方向" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="290" y="443.5" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FVhyo1jwLFq0jIHUH1NA-6" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#000000, #c0c0c0);" parent="1" vertex="1">
+        <mxCell id="FVhyo1jwLFq0jIHUH1NA-6" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#76608a, #c0c0c0);fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="210" y="390" width="40" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="FVhyo1jwLFq0jIHUH1NA-7" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#000000,#BBBBBB);" parent="1" vertex="1">
+        <mxCell id="FVhyo1jwLFq0jIHUH1NA-7" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#76608a, #c0c0c0);fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="210" y="480" width="40" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="FVhyo1jwLFq0jIHUH1NA-8" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#000000,#BBBBBB);" parent="1" vertex="1">
+        <mxCell id="FVhyo1jwLFq0jIHUH1NA-8" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#76608a, #c0c0c0);fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="90" y="480" width="40" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="FVhyo1jwLFq0jIHUH1NA-9" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#000000,#BBBBBB);" parent="1" vertex="1">
+        <mxCell id="FVhyo1jwLFq0jIHUH1NA-9" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=light-dark(#76608a, #c0c0c0);fontColor=#ffffff;strokeColor=#432D57;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="90" y="390" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="drive" value="&lt;font&gt;驱动装置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=10;" parent="1" vertex="1">
