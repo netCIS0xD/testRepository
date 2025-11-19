@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="IIAijQ66OUJ8f6Y_OF5v">
-    <mxGraphModel>
+    <mxGraphModel dx="741" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" value="操作员工作站 (HMI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="57" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="制造执行系统&lt;div&gt;仓储管理系统等&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#64B5F6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="54" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="边缘管控服务器&lt;div&gt;(任务调度 / 局部规划 / 多车管理)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8BBD0;strokeColor=#D81B60;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="路径优化云服务&lt;div&gt;(全局规划 / 优化算法)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-20" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="MQTT 服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#66BB6A;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="295" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="无线接入点 (WiFi AP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="295" y="240" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="移动机器人设备 动模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="292" y="320" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classic;html=1;strokeWidth=2;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="70" />
+              <mxPoint x="190" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classic;html=1;strokeWidth=2;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="150" />
+              <mxPoint x="190" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classicThin;html=1;strokeWidth=2;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357" y="70" as="sourcePoint" />
+            <mxPoint x="357" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classic;html=1;strokeWidth=2;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classic;html=1;strokeWidth=2;startArrow=classic;startFill=1;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classic;html=1;strokeWidth=2;" edge="1" parent="1" source="7" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="下发任务&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="计算请求" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eLeRnm_1NfQio2K9WYYE-47" value="优化结果" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="385" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eLeRnm_1NfQio2K9WYYE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;html=1;strokeWidth=2;startArrow=classicThin;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="70" as="sourcePoint" />
+            <mxPoint x="385" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eLeRnm_1NfQio2K9WYYE-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=classic;html=1;strokeWidth=2;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369" y="241" as="sourcePoint" />
+            <mxPoint x="369" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
