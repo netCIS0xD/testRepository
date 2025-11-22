@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.0">
+  <diagram name="Page-1" id="KSl7Ba9AkVgUcqN48bgF">
+    <mxGraphModel dx="891" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="img1" parent="1" style="image;aspect=fixed;whiteSpace=wrap;image=/mnt/data/13802296-b7f0-4d3b-831f-e8b527b7743d.png;" value="" vertex="1">
+          <mxGeometry height="220" width="760" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dataBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="Data sequence\n10011001..." vertex="1">
+          <mxGeometry height="60" width="140" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="modBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3FF;strokeColor=#1A73E8;fontStyle=1;" value="&lt;div&gt;M-ary&lt;/div&gt;&lt;div&gt;Modulator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="80" x="180" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="inLabel" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="In-phase\nX_I(kT_s)" vertex="1">
+          <mxGeometry height="40" width="135" x="305" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="multI" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D4A017;" value="×" vertex="1">
+          <mxGeometry height="40" width="40" x="520" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="quadLabel" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Quadrature\nX_Q(kT_s)" vertex="1">
+          <mxGeometry height="40" width="145" x="305" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="multQ" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D4A017;" value="×" vertex="1">
+          <mxGeometry height="40" width="40" x="520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cosLabel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="cos(ω_ct)" vertex="1">
+          <mxGeometry height="28" width="120" x="580" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="osc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=#666666;" value="Osc" vertex="1">
+          <mxGeometry height="40" width="60" x="580" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sinLabel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="-sin(ω_ct)\n(shift -90°)" vertex="1">
+          <mxGeometry height="40" width="120" x="585" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="summer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;" value="+" vertex="1">
+          <mxGeometry height="36" width="36" x="720" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="sLabel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="Modulated signal\ns(t)" vertex="1">
+          <mxGeometry height="50" width="130" x="770" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rxTitle" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEFE8;strokeColor=#E04E3D;fontStyle=1;" value="Receiver (Demodulation)" vertex="1">
+          <mxGeometry height="28" width="220" x="10" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="rIn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="r(t) = s(t) + n(t)" vertex="1">
+          <mxGeometry height="36" width="140" x="230" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="rxMultI" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D4A017;" value="×" vertex="1">
+          <mxGeometry height="36" width="36" x="425" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="rxCos" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="cos(ω_ct)" vertex="1">
+          <mxGeometry height="30" width="100" x="485" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="rxMultQ" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D4A017;" value="×" vertex="1">
+          <mxGeometry height="36" width="36" x="425" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="rxSin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="-sin(ω_ct)" vertex="1">
+          <mxGeometry height="30" width="100" x="485" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="lpfI" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#999999;" value="LPF\n(low-pass filter)" vertex="1">
+          <mxGeometry height="36" width="120" x="605" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="lpfQ" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#999999;" value="LPF\n(low-pass filter)" vertex="1">
+          <mxGeometry height="36" width="120" x="605" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="XIhat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="X̂_I(t)" vertex="1">
+          <mxGeometry height="36" width="100" x="745" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="XQhat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="X̂_Q(t)" vertex="1">
+          <mxGeometry height="36" width="100" x="745" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="dataBox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="modBox">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="modBox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="inLabel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="modBox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;entryX=-0.003;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" target="quadLabel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="inLabel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="multI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="multI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="summer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505.0000000000002" y="409.9999999999999" as="sourcePoint" />
+            <mxPoint x="524.9999999999998" y="409.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="multQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="summer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="osc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;dashed=1;" target="cosLabel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="osc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;dashed=1;" target="sinLabel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="summer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="sLabel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="rIn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="rxMultI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="rIn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="rxMultQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="rxMultI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="lpfI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="rxMultQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="lpfQ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="1" source="lpfI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="XIhat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge16" edge="1" parent="1" source="lpfQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="XQhat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
