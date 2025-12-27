@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="Page-1" id="kXZHr5c7DNcWXL0JWq5Q">
-    <mxGraphModel>
+    <mxGraphModel dx="1003" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="End Devices&#xa;(Sensors, Machines, Robots)" vertex="1">
+          <mxGeometry height="70" width="260" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Edge Layer (5G MEC)&#xa;• Data Preprocessing&#xa;• Model Inference&#xa;• Fast Decision Making" vertex="1">
+          <mxGeometry height="110" width="320" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Cloud Layer&#xa;• Large-Scale Data Storage&#xa;• Model Training&#xa;• Model Optimization" vertex="1">
+          <mxGeometry height="110" width="320" x="760" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Training Phase&#xa;(Compute-Intensive, Non-Real-Time)" vertex="1">
+          <mxGeometry height="70" width="320" x="760" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Inference Phase&#xa;(Low Latency, Real-Time)" vertex="1">
+          <mxGeometry height="70" width="320" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" style="endArrow=classic;" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" style="endArrow=classic;html=1;" target="4" value="Filtered Data / Features">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" style="endArrow=classic;html=1;" target="3" value="Trained Model">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="3" style="endArrow=classic;html=1;" target="2" value="Control Commands / Decisions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="4" style="dashed=1;endArrow=classic;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="3" style="dashed=1;endArrow=classic;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
