@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="Page-1" id="m0kzx96rmG4XNcBNX2S-">
-    <mxGraphModel dx="885" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,12 +35,13 @@
         <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;align=center;arcSize=6;" value="" vertex="1">
           <mxGeometry height="265" width="450" x="180" y="115" as="geometry" />
         </mxCell>
-        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Trained Model Deployment" vertex="1">
+        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#330000;" value="Trained Model Deployment" vertex="1">
           <mxGeometry height="40" width="161" x="430" y="318" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="2" style="endArrow=classic;html=1;entryX=0.221;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="3" value="Raw Data">
-          <mxGeometry relative="1" x="-0.0475" y="-4" as="geometry">
+        <mxCell id="e1" edge="1" parent="1" source="2" style="endArrow=classic;html=1;entryX=0.221;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.295;exitY=0.041;exitDx=0;exitDy=0;exitPerimeter=0;" target="3" value="Raw Data">
+          <mxGeometry relative="1" x="-0.1369" y="4" as="geometry">
             <mxPoint as="offset" />
+            <mxPoint x="340" y="670" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e2" edge="1" parent="1" source="NX9rhZxBDhr04pqbg29k-61" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="NX9rhZxBDhr04pqbg29k-52" value="&lt;div&gt;Features&amp;nbsp;&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;&lt;div&gt;Events&lt;/div&gt;">
@@ -66,7 +67,7 @@
         <mxCell id="NX9rhZxBDhr04pqbg29k-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Feature Extraction" vertex="1">
           <mxGeometry height="30" width="70" x="290" y="145" as="geometry" />
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Performance Evaluation" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#330000;" value="Performance Evaluation" vertex="1">
           <mxGeometry height="40" width="71" x="549" y="180" as="geometry" />
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-23" edge="1" parent="1" source="NX9rhZxBDhr04pqbg29k-19" style="endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NX9rhZxBDhr04pqbg29k-18">
@@ -75,10 +76,10 @@
             <mxPoint x="150" y="199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Feature Selection" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#6c8ebf;" value="Feature Selection" vertex="1">
           <mxGeometry height="30" width="60" x="210" y="145" as="geometry" />
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="" vertex="1">
           <mxGeometry height="30" width="50" x="559" y="266" as="geometry" />
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-26" edge="1" parent="1" source="NX9rhZxBDhr04pqbg29k-21" style="endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="NX9rhZxBDhr04pqbg29k-25">
@@ -113,7 +114,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="Complex Problem Optimization" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" value="Complex Problem Optimization" vertex="1">
           <mxGeometry height="35" width="242" x="275" y="215" as="geometry" />
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-46" edge="1" parent="1" source="NX9rhZxBDhr04pqbg29k-25" style="endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NX9rhZxBDhr04pqbg29k-19" value="">
@@ -122,7 +123,7 @@
             <mxPoint x="290" y="288" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;Model Training&lt;/div&gt;" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=light-dark(#000000, #6d5100);" value="&lt;div&gt;Model Training&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="145" x="353" y="260" as="geometry" />
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
@@ -151,7 +152,7 @@
             <mxPoint x="559" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-52" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;" value="&lt;div&gt;History Global Data&lt;/div&gt;" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-52" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;fillColor=#DAE8FC;" value="&lt;div&gt;History Global Data&lt;/div&gt;" vertex="1">
           <mxGeometry height="41" width="113" x="247" y="320" as="geometry" />
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-58" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b&gt;Edge Layer (5G MEC)&lt;/b&gt;" vertex="1">
@@ -189,7 +190,7 @@
             <mxPoint x="310" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NX9rhZxBDhr04pqbg29k-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Local Model Tuning" vertex="1">
+        <mxCell id="NX9rhZxBDhr04pqbg29k-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="Local Model Tuning" vertex="1">
           <mxGeometry height="100" width="43" x="380" y="440" as="geometry" />
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-69" edge="1" parent="1" source="4" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NX9rhZxBDhr04pqbg29k-62" value="">
@@ -250,7 +251,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NX9rhZxBDhr04pqbg29k-79" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b&gt;End Layer&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="188" y="588" as="geometry" />
+          <mxGeometry height="30" width="62" x="188" y="588" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
