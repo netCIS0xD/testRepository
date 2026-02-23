@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.3.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.5.2">
   <diagram name="Page-1" id="hqs3XQ6f-ZUBJhkDENvv">
-    <mxGraphModel>
+    <mxGraphModel dx="1418" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="agv" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="AGV" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="portenta" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="Portenta&#xa;machine control" vertex="1">
+          <mxGeometry height="80" width="160" x="30" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="rpi_box" parent="1" style="rounded=0;dashed=1;strokeWidth=2;" value="RaspberryPi" vertex="1">
+          <mxGeometry height="450" width="400" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mysql" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="MySQL&#xa;(Database)" vertex="1">
+          <mxGeometry height="70" width="200" x="450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="django" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="Django&#xa;(Webserver)" vertex="1">
+          <mxGeometry height="70" width="200" x="450" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="emqx" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="EMQX&#xa;(MQTT Broker)" vertex="1">
+          <mxGeometry height="70" width="200" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="gui" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="GUI&#xa;(Operator)" vertex="1">
+          <mxGeometry height="70" width="160" x="900" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="agv" style="endArrow=block;startArrow=block;" target="portenta" value="Communicate via&#xa;CAN, Encoder, GPIO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="portenta" style="endArrow=block;" target="emqx" value="Publish&#xa;Communicate via WLAN">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="emqx" style="endArrow=block;" target="portenta" value="Subscribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="django" style="endArrow=block;" target="mysql" value="Store Data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="mysql" style="endArrow=block;" target="django" value="Read Data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="django" style="endArrow=block;" target="emqx" value="Publish">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="emqx" style="endArrow=block;" target="django" value="Subscribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="django" style="endArrow=block;" target="gui" value="Monitor Data&#xa;Communicate via WLAN">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="gui" style="endArrow=block;" target="django" value="Send Command">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
