@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="agv" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="battery&#xa;" vertex="1">
+        <mxCell id="agv" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="AGV" vertex="1">
           <mxGeometry height="60" width="120" x="50" y="260" as="geometry" />
         </mxCell>
         <mxCell id="portenta" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="Portenta&#xa;machine control" vertex="1">
