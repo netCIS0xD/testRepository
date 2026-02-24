@@ -25,7 +25,7 @@
         <mxCell id="gui" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="GUI&#xa;(Operator)" vertex="1">
           <mxGeometry height="70" width="160" x="900" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="agv" style="endArrow=block;startArrow=block;" target="portenta" value="Communicate via&#xa;CAN, Encoder, GPIO">
+        <mxCell id="e1" edge="1" parent="1" source="agv" style="endArrow=block;startArrow=block;" target="portenta" value="Communicate via&#xa;Wi-Fi">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e2" edge="1" parent="1" source="portenta" style="endArrow=block;" target="emqx" value="Publish&#xa;Communicate via WLAN">
