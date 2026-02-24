@@ -4,53 +4,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="agv" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="AGV" vertex="1">
-          <mxGeometry height="60" width="120" x="50" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="portenta" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="Portenta&#xa;machine control" vertex="1">
-          <mxGeometry height="80" width="160" x="30" y="440" as="geometry" />
+        <mxCell id="portenta" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="AGV&#39;s Control Unit&#xa;( Portenta Machine Control )" vertex="1">
+          <mxGeometry height="70" width="170" x="80" y="450" as="geometry" />
         </mxCell>
         <mxCell id="rpi_box" parent="1" style="rounded=0;dashed=1;strokeWidth=2;" value="RaspberryPi" vertex="1">
-          <mxGeometry height="450" width="400" x="350" y="120" as="geometry" />
+          <mxGeometry height="485" width="320" x="390" y="92.5" as="geometry" />
         </mxCell>
         <mxCell id="mysql" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="MySQL&#xa;(Database)" vertex="1">
-          <mxGeometry height="70" width="200" x="450" y="140" as="geometry" />
+          <mxGeometry height="70" width="200" x="450" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="django" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="Django&#xa;(Webserver)" vertex="1">
+        <mxCell id="django" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="Django&#xa;(Python Web Framework)" vertex="1">
           <mxGeometry height="70" width="200" x="450" y="300" as="geometry" />
         </mxCell>
         <mxCell id="emqx" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="EMQX&#xa;(MQTT Broker)" vertex="1">
           <mxGeometry height="70" width="200" x="450" y="450" as="geometry" />
         </mxCell>
         <mxCell id="gui" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="GUI&#xa;(Operator)" vertex="1">
-          <mxGeometry height="70" width="160" x="900" y="300" as="geometry" />
+          <mxGeometry height="60" width="160" x="860" y="305" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="agv" style="endArrow=block;startArrow=block;" target="portenta" value="Communicate via&#xa;Wi-Fi">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-8" parent="1" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;" value="AGV&#39;s Senors&#xa;()" vertex="1">
+          <mxGeometry height="70" width="170" x="90" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="portenta" style="endArrow=block;" target="emqx" value="Publish&#xa;Communicate via WLAN">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Jeston Orin Nano" vertex="1">
+          <mxGeometry height="30" width="100" x="500" y="547.5" as="geometry" />
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="emqx" style="endArrow=block;" target="portenta" value="Subscribe">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-10" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" value="" vertex="1">
+          <mxGeometry height="15" width="200" x="250" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="django" style="endArrow=block;" target="mysql" value="Store Data">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="mysql" style="endArrow=block;" target="django" value="Read Data">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="django" style="endArrow=block;" target="emqx" value="Publish">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="emqx" style="endArrow=block;" target="django" value="Subscribe">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="django" style="endArrow=block;" target="gui" value="Monitor Data&#xa;Communicate via WLAN">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e9" edge="1" parent="1" source="gui" style="endArrow=block;" target="django" value="Send Command">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-11" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;direction=west;" value="" vertex="1">
+          <mxGeometry height="15" width="200" x="250" y="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
