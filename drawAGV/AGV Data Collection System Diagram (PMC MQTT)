@@ -1,35 +1,35 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.5.4">
   <diagram name="AGV Data Acquisition" id="hqs3XQ6f-ZUBJhkDENvv">
-    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1415" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RLkWtSRnzRksWpZvxykU-48" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="485" width="900" x="100" y="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="portenta" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=12;" value="AGV&#39;s Control Unit&#xa;( Portenta Machine Control )" vertex="1">
-          <mxGeometry height="70" width="170" y="357.5" as="geometry" />
+        <mxCell id="portenta" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=18;" value="Onboard Data Collection Unit&#xa;( Portenta Machine Control )" vertex="1">
+          <mxGeometry height="70" width="290" x="-90" y="357.5" as="geometry" />
         </mxCell>
         <mxCell id="rpi_box" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=0;dashed=1;strokeWidth=2;fontFamily=Georgia;fontSize=12;" value="" vertex="1">
-          <mxGeometry height="485" width="290" x="305" as="geometry" />
+          <mxGeometry height="455" width="290" x="305" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="mysql" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=12;" value="MySQL&#xa;(Database)" vertex="1">
+        <mxCell id="mysql" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=22;" value="MySQL&#xa;(Database)" vertex="1">
           <mxGeometry height="70" width="200" x="350" y="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="django" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=12;" value="Django&#xa;(Python Web Framework)" vertex="1">
+        <mxCell id="django" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=17;" value="Django&#xa;(Python Web Framework)" vertex="1">
           <mxGeometry height="70" width="200" x="350" y="207.5" as="geometry" />
         </mxCell>
-        <mxCell id="emqx" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=12;" value="EMQX&#xa;(MQTT Broker)" vertex="1">
+        <mxCell id="emqx" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=20;" value="EMQX&#xa;(MQTT Broker)" vertex="1">
           <mxGeometry height="70" width="200" x="350" y="357.5" as="geometry" />
         </mxCell>
-        <mxCell id="gui" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=12;" value="GUI&#xa;(Operator)" vertex="1">
+        <mxCell id="gui" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=22;" value="GUI&#xa;(Browser)" vertex="1">
           <mxGeometry height="70" width="170" x="730" y="207.5" as="geometry" />
         </mxCell>
-        <mxCell id="RLkWtSRnzRksWpZvxykU-8" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=12;" value="AGV&#39;s Senors" vertex="1">
-          <mxGeometry height="70" width="170" y="137.5" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-8" parent="RLkWtSRnzRksWpZvxykU-48" style="rounded=1;fillColor=#000000;fontColor=#FFFFFF;fontFamily=Georgia;fontSize=20;" value="AGV and Sensors&#xa;(Battery, Encoder, ...)" vertex="1">
+          <mxGeometry height="70" width="220" x="-55" y="137.5" as="geometry" />
         </mxCell>
-        <mxCell id="RLkWtSRnzRksWpZvxykU-9" parent="RLkWtSRnzRksWpZvxykU-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Georgia;fontSize=12;" value="Jeston Orin Nano" vertex="1">
-          <mxGeometry height="30" width="100" x="400" y="455" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-9" parent="RLkWtSRnzRksWpZvxykU-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Georgia;fontSize=29;" value="&lt;font&gt;Jeston Orin Nano&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="447.5" as="geometry" />
         </mxCell>
         <mxCell id="RLkWtSRnzRksWpZvxykU-10" parent="RLkWtSRnzRksWpZvxykU-48" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontFamily=Georgia;fontSize=12;" value="" vertex="1">
           <mxGeometry height="15" width="180" x="170" y="367.5" as="geometry" />
@@ -41,10 +41,10 @@
           <mxGeometry height="30" width="60" x="230" y="407.5" as="geometry" />
         </mxCell>
         <mxCell id="RLkWtSRnzRksWpZvxykU-15" parent="RLkWtSRnzRksWpZvxykU-48" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=28.53;notch=0;direction=south;fontFamily=Georgia;fontSize=12;" value="" vertex="1">
-          <mxGeometry height="150" width="15" x="80" y="207.5" as="geometry" />
+          <mxGeometry height="150" width="15" x="54" y="207.5" as="geometry" />
         </mxCell>
-        <mxCell id="RLkWtSRnzRksWpZvxykU-18" parent="RLkWtSRnzRksWpZvxykU-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Georgia;fontSize=12;" value="&lt;font&gt;Communicate Via GPIO/UART&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="95" x="95" y="267.5" as="geometry" />
+        <mxCell id="RLkWtSRnzRksWpZvxykU-18" parent="RLkWtSRnzRksWpZvxykU-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Georgia;fontSize=12;" value="&lt;font&gt;Communicate via CAN/GPIO/UART&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="95" x="69" y="267.5" as="geometry" />
         </mxCell>
         <mxCell id="RLkWtSRnzRksWpZvxykU-14" parent="RLkWtSRnzRksWpZvxykU-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Georgia;fontSize=12;" value="Communicate Via WLAN" vertex="1">
           <mxGeometry height="30" width="130" x="195" y="377.5" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry height="30" width="60" x="380" y="302.5" as="geometry" />
         </mxCell>
         <mxCell id="RLkWtSRnzRksWpZvxykU-37" parent="RLkWtSRnzRksWpZvxykU-48" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=28.53;notch=0;direction=north;fontFamily=Georgia;fontSize=12;" value="" vertex="1">
-          <mxGeometry height="150" width="15" x="65" y="207.5" as="geometry" />
+          <mxGeometry height="150" width="15" x="39" y="207.5" as="geometry" />
         </mxCell>
         <mxCell id="RLkWtSRnzRksWpZvxykU-39" parent="RLkWtSRnzRksWpZvxykU-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Georgia;fontSize=12;" value="Communicate Via WLAN" vertex="1">
           <mxGeometry height="30" width="130" x="575" y="227.5" as="geometry" />
