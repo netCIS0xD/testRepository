@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
   <diagram name="Page-1" id="1oy6vf3tag1NdOTA3vUB">
-    <mxGraphModel dx="1470" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="377" dy="206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="pattern" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Check LED pattern table dts[]&#xa;uint LEDx = dts[x]" vertex="1">
           <mxGeometry height="48" width="190" x="260" y="202" as="geometry" />
         </mxCell>
-        <mxCell id="selpin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Find selection pin for position n&#xa;selpin = ?" vertex="1">
+        <mxCell id="selpin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Find selection pin for position n&lt;br&gt;uint selpin = ?" vertex="1">
           <mxGeometry height="60" width="190" x="260" y="270" as="geometry" />
         </mxCell>
         <mxCell id="d4low" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Set D4 = 0" vertex="1">
