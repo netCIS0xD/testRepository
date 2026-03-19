@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.4">
   <diagram name="Page-1" id="AsYZug97clntb_Nz5L4P">
-    <mxGraphModel>
+    <mxGraphModel dx="891" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="time" parent="1" style="text;html=1;fontSize=14;" value="Global Time (t0 → t1 → t2 → t3)" vertex="1">
+          <mxGeometry height="30" width="400" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tsn" parent="1" style="swimlane;html=1;" value="Industrial Control Network (TSN)" vertex="1">
+          <mxGeometry height="100" width="900" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tsn_ctrl" parent="tsn" style="rounded=1;fillColor=#dae8fc;" value="Control Windows (周期对齐)" vertex="1">
+          <mxGeometry height="40" width="800" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" edge="1" parent="1" source="tsn" style="endArrow=block;" target="ran">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ran" parent="1" style="swimlane;html=1;" value="5G-A RAN (TDD + SBFD)" vertex="1">
+          <mxGeometry height="250" width="900" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tdd" parent="ran" style="rounded=1;fillColor=#fff2cc;" value="TDD Macro Frame (DL / UL Slots Aligned with TSN Windows)" vertex="1">
+          <mxGeometry height="50" width="860" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grid" parent="ran" style="shape=rectangle;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="860" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sb1" parent="grid" style="rounded=1;fillColor=#d5e8d4;" value="Subband1&#xa;Control" vertex="1">
+          <mxGeometry height="120" width="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sb2" parent="grid" style="rounded=1;fillColor=#d5e8d4;" value="Subband2&#xa;PTP Sync" vertex="1">
+          <mxGeometry height="120" width="200" x="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sb3" parent="grid" style="rounded=1;fillColor=#f8cecc;" value="Subband3&#xa;Video/Data" vertex="1">
+          <mxGeometry height="120" width="230" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sb4" parent="grid" style="rounded=1;fillColor=#f8cecc;" value="Subband4&#xa;Video/Data" vertex="1">
+          <mxGeometry height="120" width="230" x="630" as="geometry" />
+        </mxCell>
+        <mxCell id="tsn2" parent="1" style="swimlane;html=1;" value="Industrial Network (Actuator Side)" vertex="1">
+          <mxGeometry height="100" width="900" x="50" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="tsn_ctrl2" parent="tsn2" style="rounded=1;fillColor=#dae8fc;" value="Aligned Control Windows → Zero Queueing → Deterministic Delay" vertex="1">
+          <mxGeometry height="40" width="800" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" edge="1" parent="1" source="ran" style="endArrow=block;" target="tsn2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label1" parent="1" style="text;html=1;fontSize=14;fontStyle=1;" value="Time Window Alignment" vertex="1">
+          <mxGeometry height="30" width="200" x="380" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="label2" parent="1" style="text;html=1;" value="Cross-layer: App / MAC / PHY" vertex="1">
+          <mxGeometry height="30" width="200" x="960" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="label3" parent="1" style="text;html=1;" value="Cross-domain: Time / Frequency / Network" vertex="1">
+          <mxGeometry height="30" width="260" x="960" y="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
