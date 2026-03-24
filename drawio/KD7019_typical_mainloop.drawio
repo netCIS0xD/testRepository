@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.4">
   <diagram name="Page-1" id="YfQIlxV3eqc3umkvaQ9k">
-    <mxGraphModel dx="1209" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="425" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -317,6 +317,41 @@
         </mxCell>
         <mxCell id="nR7dm_g6kDuSuuxDfegb-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Other tasks? (e.g. update clock values ...)" vertex="1">
           <mxGeometry height="30" width="250.05" x="305.02" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-1" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="115" width="269" x="111" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-2" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="60" width="269" as="geometry" />
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-3" parent="6gu4MTKoFUw0BGqW-WzB-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&lt;div&gt;flagCmd&amp;nbsp; flag for UART&amp;nbsp;command&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 1&amp;nbsp; a completed cmd received&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 0 otherwise&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="269" as="geometry">
+            <mxRectangle height="60" width="269" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-4" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="20" width="269" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-5" parent="6gu4MTKoFUw0BGqW-WzB-4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="cmdBuff[&amp;nbsp; ]&amp;nbsp; &amp;nbsp; &amp;nbsp;UART command buffer" vertex="1">
+          <mxGeometry height="20" width="269" as="geometry">
+            <mxRectangle height="20" width="269" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-6" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="20" width="269" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-7" parent="6gu4MTKoFUw0BGqW-WzB-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;i&amp;nbsp; &amp;nbsp; &amp;nbsp; counter of received char in cmdBuff[ ]" vertex="1">
+          <mxGeometry height="20" width="269" as="geometry">
+            <mxRectangle height="20" width="269" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-8" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="15" width="269" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-9" parent="6gu4MTKoFUw0BGqW-WzB-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="4" vertex="1">
+          <mxGeometry height="15" width="269" as="geometry">
+            <mxRectangle height="15" width="269" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
