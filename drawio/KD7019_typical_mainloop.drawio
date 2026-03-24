@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.4">
   <diagram name="Page-1" id="YfQIlxV3eqc3umkvaQ9k">
-    <mxGraphModel dx="1429" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1048" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,18 +319,18 @@
           <mxGeometry height="30" width="250.05" x="305.02" y="860" as="geometry" />
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-1" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=default;" value="" vertex="1">
-          <mxGeometry height="115" width="269" x="71" y="50" as="geometry" />
+          <mxGeometry height="130" width="269" x="71" y="38" as="geometry" />
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-2" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="60" width="269" as="geometry" />
+          <mxGeometry height="59" width="269" as="geometry" />
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-3" parent="6gu4MTKoFUw0BGqW-WzB-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&lt;div&gt;flagCmd&amp;nbsp; flag for UART&amp;nbsp;command&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 1&amp;nbsp; a completed cmd received&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 0 otherwise&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="269" as="geometry">
-            <mxRectangle height="60" width="269" as="alternateBounds" />
+          <mxGeometry height="59" width="269" as="geometry">
+            <mxRectangle height="59" width="269" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-4" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="20" width="269" y="60" as="geometry" />
+          <mxGeometry height="20" width="269" y="59" as="geometry" />
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-5" parent="6gu4MTKoFUw0BGqW-WzB-4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="cmdBuff[&amp;nbsp; ]&amp;nbsp; &amp;nbsp; &amp;nbsp;UART command buffer" vertex="1">
           <mxGeometry height="20" width="269" as="geometry">
@@ -338,7 +338,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-6" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="20" width="269" y="80" as="geometry" />
+          <mxGeometry height="20" width="269" y="79" as="geometry" />
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-7" parent="6gu4MTKoFUw0BGqW-WzB-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&amp;nbsp;k&amp;nbsp; &amp;nbsp; &amp;nbsp; number of received chars in cmdBuff[ ]" vertex="1">
           <mxGeometry height="20" width="269" as="geometry">
@@ -346,18 +346,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-8" parent="6gu4MTKoFUw0BGqW-WzB-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="15" width="269" y="100" as="geometry" />
+          <mxGeometry height="31" width="269" y="99" as="geometry" />
         </mxCell>
-        <mxCell id="6gu4MTKoFUw0BGqW-WzB-9" parent="6gu4MTKoFUw0BGqW-WzB-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="4" vertex="1">
-          <mxGeometry height="15" width="269" as="geometry">
-            <mxRectangle height="15" width="269" as="alternateBounds" />
+        <mxCell id="6gu4MTKoFUw0BGqW-WzB-9" parent="6gu4MTKoFUw0BGqW-WzB-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&lt;div&gt;dispBuff[4]&amp;nbsp; &amp;nbsp; 4 byte char array storing the chars&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;to be displayed at the 7-Seg LEDS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31" width="269" as="geometry">
+            <mxRectangle height="31" width="269" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Text" vertex="1">
           <mxGeometry height="30" width="50" x="215" y="130" as="geometry" />
         </mxCell>
         <mxCell id="6gu4MTKoFUw0BGqW-WzB-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Key Variables&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="130" x="136" y="15" as="geometry" />
+          <mxGeometry height="40" width="130" x="130.05" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
