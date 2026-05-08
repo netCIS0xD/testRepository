@@ -1,0 +1,220 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="29.6.3">
+  <diagram name="Page-1" id="w8fGaN1hld1g03YgTTRv">
+    <mxGraphModel dx="3316" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j2effXm1B7jBwHNOI026-1" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" value="Start&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-3" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize System&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Parameters&lt;br&gt;- AGV Speed&lt;br&gt;- Battery Drain&lt;br&gt;- Safe Distance&lt;br&gt;- Charging Targets&lt;br&gt;- Frame Timing&lt;br&gt;- Total Tasks&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" x="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-5" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate Track Geometry" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-7" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Coordinate Transformation" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-9" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize Loading &amp;amp; Unloading Stations" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-11" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize Charging Stations" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-13" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate Shortcut Paths" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-15" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize AGVs" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-17" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize Dashboard UI" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-19" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Start Animation Engine&lt;br&gt;(FuncAnimation)" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-20" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Essential_Web_5-2055/process-loop-arrow-action-step-945.svg" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="415" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update Simulation Time" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-22" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Essential_Web_2-2050/shuffle-mix-loop-arrow-process-736.svg" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="425" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-26" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j2effXm1B7jBwHNOI026-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-28" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j2effXm1B7jBwHNOI026-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Battery ?" vertex="1">
+          <mxGeometry height="80" width="80" x="410" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-30" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stop AGV&lt;br&gt;Set State = STOPPED" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-36" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AGV Charging?" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-32" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-29" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;2518&quot; data-end=&quot;2565&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0&quot;&gt;&lt;code&gt;Increase Battery Level&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-34" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Battery Reached Target?" vertex="1">
+          <mxGeometry height="80" width="80" x="210" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-33" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Release Charger&lt;br&gt;Return AGV to MOVE State" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-38" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-35" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Continue Charging" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-40" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-37" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Perform Collision Avoidance" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-42" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j2effXm1B7jBwHNOI026-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-44" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="j2effXm1B7jBwHNOI026-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-39" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Safe Distance Maintained?" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pause AGV&lt;br&gt;Increase Wait Time" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-46" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Move AGV Forward" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-48" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-45" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Reduce Battery Level" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-50" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-52" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-47" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Reached Loading Station?" vertex="1">
+          <mxGeometry height="80" width="80" x="760" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-49" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Assign Task&lt;br&gt;Update Task Counters" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-51" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-56" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-58" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-55" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Reached Unloading Station?" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="2460" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-57" parent="1" style="whiteSpace=wrap;html=1;" value="Complete Task&lt;br&gt;Update Throughput" vertex="1">
+          <mxGeometry height="60" width="120" x="465" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-60" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-62" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-61" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enable Smart Shortcut Routing" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-64" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-61" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Battery Below 30%?" vertex="1">
+          <mxGeometry height="80" width="80" x="500" y="2860" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-66" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-63" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Search Available Charger" vertex="1">
+          <mxGeometry height="60" width="120" x="345" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-68" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-70" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-65" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Charger Available?" vertex="1">
+          <mxGeometry height="80" width="80" x="365" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-67" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Reserve Charger&lt;br&gt;Move to Charging State" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-69" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Continue Loop Movement&lt;br&gt;Wait for Charger" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Continue Normal AGV Movement" vertex="1">
+          <mxGeometry height="60" width="120" x="415" y="3370" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-73" edge="1" parent="1" source="j2effXm1B7jBwHNOI026-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="j2effXm1B7jBwHNOI026-71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2effXm1B7jBwHNOI026-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Calculate KPI Metrics" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="3480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
